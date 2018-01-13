@@ -8,6 +8,11 @@ a:focus,
 a:hover {
   color: #fff;
 }
+.my_charts{
+ 
+ float:left;
+}
+
 
 /* Custom default button */
 .btn-secondary,
