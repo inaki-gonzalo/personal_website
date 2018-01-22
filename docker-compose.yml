@@ -1,0 +1,11 @@
+version: '3'
+services:
+  db:
+    image: postgres
+  website:
+    build: ./website
+    ports:
+      - "8000:80" #host/container
+    depends_on:
+      - db
+
