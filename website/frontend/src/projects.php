@@ -71,7 +71,7 @@ var offset = new Date().getTimezoneOffset();
     $title = 'Temperature';
     $units = 'Celsius';
     $quantity = 'Temperature';
-    $sensor_id=1;
+    $sensor_id='1';
     include ('chart_template.php');
 })();
 
@@ -80,7 +80,7 @@ var offset = new Date().getTimezoneOffset();
     $title = 'Pressure';
     $units = 'hPa';
     $quantity = 'Pressure';
-    $sensor_id=2;
+    $sensor_id='2';
     include ('chart_template.php');
 })();
 

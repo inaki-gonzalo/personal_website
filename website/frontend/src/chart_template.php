@@ -55,7 +55,7 @@ Highcharts.chart(<?php echo $chartName; ?>, {
     series: [{
     	showInLegend: false, 
         name: '<?php echo $quantity; ?>' ,
-        data: [<?php echo join($data, ',') ?>],
+        data: [<?php if(isset ( $data)){echo join($data, ',');}; ?>],
 	type: 'spline'
     }]
 
